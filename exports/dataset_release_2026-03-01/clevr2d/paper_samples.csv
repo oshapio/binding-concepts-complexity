@@ -1,0 +1,3 @@
+dataset,sample_index,filename,caption
+clevr2d,0,0000000.png,a purple square and a gray circle
+clevr2d,1,0000001.png,a brown triangle and a red square

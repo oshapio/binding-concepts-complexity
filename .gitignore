@@ -1,0 +1,191 @@
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*~
+.nfs*
+*.orig
+*.bak
+*.tmp
+*.temp
+
+# JetBrains / VS Code
+.idea/
+*.iml
+.vscode/
+*.sublime-* 
+
+# ---- Git / credentials (keep global/local only) ----
+.git-credentials
+.gitconfig.local
+
+# ---- Environment & secrets ----
+.env
+.env.*
+!.env.example
+*.secret*
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+id_rsa
+id_dsa
+
+# ---- Logs & runtime state ----
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ---- General caches & coverage ----
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+coverage/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Node.js / Frontend ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+out/
+dist/
+build/
+storybook-static/
+coverage-final.json
+*.tsbuildinfo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+site/
+build/
+dist/
+
+# ---- Java / JVM ----
+target/
+.gradle/
+build/
+*.class
+hs_err_pid*
+replay_pid*
+.mvn/wrapper/maven-wrapper.jar
+
+# ---- Go ----
+bin/
+*.test
+coverage.out
+
+# ---- Rust ----
+target/
+*.rs.bk
+
+# ---- Ruby ----
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+
+# ---- PHP ----
+vendor/
+
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.nupkg
+*.snupkg
+TestResult*/
+
+# ---- C/C++ / compiled ----
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+*.lo
+*.la
+*.gch
+*.pch
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+
+# ---- Infrastructure ----
+.terraform/
+*.tfstate
+*.tfstate.*
+.kube/
+*.kubeconfig
+.docker/
+
+# ---- Deploy / services ----
+.vercel/
+.netlify/
+
+# ---- Notebooks / ML ----
+.ipynb_checkpoints/
+wandb/
+mlruns/
+
+
+embeddings/
+
+data/
+
+src/mob/checkpoints
+src/mob/outputs
+
+
+experiments/
+wandb/
+
+configs/*
+
+src/mob/reproducing_lewis/data
+
+*/pug_spare_dataset
+pug_spare_dataset
+
+slurm_outputs/
+
+*.pt
+*.pkl
+__MACOSX
+src/mob/sae/figures*
+laion400m_*
+_data_maker/laion400m_shape_clip.csv
+
+src/mob/multi_obj_clip_analysis/datasets
+
+figures
+src/mob/clip_embeddings/plot_interventions_k_figure.py
+src/mob/clip_embeddings/sweep_interventions_k.py
