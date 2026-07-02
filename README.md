@@ -1,6 +1,8 @@
 # How can embedding models bind concepts?
 
-Code accompanying the paper *How can embedding models bind concepts?*
+[![arXiv](https://img.shields.io/badge/arXiv-2605.31503-b31b1b.svg)](https://arxiv.org/abs/2605.31503)
+
+Code accompanying the paper [*How can embedding models bind concepts?*](https://arxiv.org/abs/2605.31503)
 
 ---
 
